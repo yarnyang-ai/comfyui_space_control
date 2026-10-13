@@ -1,0 +1,11 @@
+# Keep runtime files, README, user guides, and the maintained example workflows.
+# Git-ignored files are already excluded; these rules also cover tracked copies.
+tests/
+test-results/
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+.github/
+docs/development.md
+docs/publishing.md
+examples/space_control_anima.json

@@ -1,0 +1,20 @@
+[project]
+# Proposed Registry package ID; confirm availability before the first publish.
+name = "space-control"
+version = "0.1.0"
+description = "Spatial color and noise bases to encourage open space in ComfyUI image sampling."
+readme = "README.md"
+requires-python = ">=3.10"
+# ComfyUI supplies torch, typing_extensions, and its own APIs.
+dependencies = []
+
+[project.urls]
+# Source repository.
+Repository = "https://github.com/yarnyang-ai/comfyui_space_control"
+
+[tool.comfy]
+# Required for Registry publication: use the ID created in Comfy Registry.
+PublisherId = ""
+DisplayName = "Space Control"
+# Tested development environment: ComfyUI 0.37.0.
+requires-comfyui = ">=0.37.0"

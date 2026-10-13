@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+test-results/
+dist/
+docs/publishing.md
+# Publish the maintained example workflows only.
+examples/*
+!examples/space_control_t2i_anima.json
+!examples/space_control_i2i_anima.json
+!examples/example.png
+!examples/example.LICENSE.txt
